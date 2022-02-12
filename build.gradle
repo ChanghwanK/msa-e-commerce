@@ -31,6 +31,9 @@ dependencies {
     implementation 'org.flywaydb:flyway-core:7.10.0'
     implementation 'org.apache.commons:commons-lang3:3.9'
 
+    // guava
+    implementation 'com.google.guava:guava:28.2-jre'
+
     compileOnly 'org.projectlombok:lombok'
     runtimeOnly 'mysql:mysql-connector-java'
     annotationProcessor 'org.projectlombok:lombok'
