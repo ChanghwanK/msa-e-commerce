@@ -2,5 +2,5 @@ package com.dev.order.domain.partner;
 
 public interface PartnerReader {
     Partner getPartner(Long partnerId);
-    Partner getPartner(String partnerToken);
+    Partner getPartnerByToken(String partnerToken);
 }

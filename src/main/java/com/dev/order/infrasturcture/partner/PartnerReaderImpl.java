@@ -22,7 +22,7 @@ public class PartnerReaderImpl implements PartnerReader {
     }
 
     @Override
-    public Partner getPartner(String partnerToken) {
+    public Partner getPartnerByToken(String partnerToken) {
         return partnerRepository.findByPartnerToken(partnerToken)
                 .orElseThrow(EntityNotFoundException::new);
     }
